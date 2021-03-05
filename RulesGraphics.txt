@@ -1,0 +1,21 @@
+General:
+- Objects of high complexity (Fences, Balls, etc) should be created only as a plane with a prerendered texture that depicts the object
+- N64 texture cache is 4Kb, so keep them low res
+- Effects like smoke etc should be a texture on a plane
+
+Props/NPC:
+- NPCs facial features can mostly be texture
+- Max amount Faces: 900-1000 per model
+- Model must not be detailed
+- Textures can be drawn in Blender
+- Textures can be a plain color or drawn with some details but not realistic
+- If possible: Only one texture file per model
+- Max texture size: 512x512
+- Animations possible via skeleton animation
+
+Map:
+- Max amount Faces: 4000, but not that important
+- Textures can be drawn or realistic but extremely zoomed in/low res
+- Max texture size: ?
+- If possible: use multiple textures 
+- Mostly used texture size: 32x32
